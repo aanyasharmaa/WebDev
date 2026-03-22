@@ -1,3 +1,4 @@
+/* RESET + GLOBAL */
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +6,18 @@
   font-family: 'Inter', sans-serif;
 }
 
+/* BODY */
 body {
   background: #0f172a;
   color: #e2e8f0;
 }
 
+/* HEADER */
 header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+/* NAV */
 nav {
   max-width: 900px;
   margin: auto;
@@ -27,6 +31,7 @@ nav h1 {
   font-weight: 600;
 }
 
+/* HERO */
 .hero {
   max-width: 900px;
   margin: 30px auto 10px;
@@ -45,20 +50,28 @@ nav h1 {
   font-size: 14px;
 }
 
+/* CONTAINER */
 .container {
   max-width: 900px;
   margin: auto;
   padding: 0 20px;
 }
 
+/* SECTIONS */
 section {
   margin: 35px 0;
 }
 
+/* HEADINGS */
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 18px;
   margin-bottom: 10px;
+}
+
+/* TEXT */
+p {
+  line-height: 1.6;
 }
 
 ul {
@@ -66,10 +79,7 @@ ul {
   line-height: 1.6;
 }
 
-p {
-  line-height: 1.6;
-}
-
+/* EMAIL */
 .email-link {
   color: #e2e8f0;
   text-decoration: none;
